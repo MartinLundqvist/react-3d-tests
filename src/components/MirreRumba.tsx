@@ -54,7 +54,6 @@ export default function Model({ position }: IModelProps) {
     actions['Armature|mixamo.com|Layer0']?.play();
   });
 
-  console.log(actions);
   return (
     <group position={position} dispose={null}>
       <group ref={group} dispose={null}>
